@@ -18,15 +18,11 @@
   -webkit-justify-content: space-;
   -ms-flex-pack: space-;
   justify-content: space-; }
-  .flex-col [class*="col-"], .flex-col [class^="col-"] {
+  .flex-col [class*="col-"] {
     border-color: red; }
   .flex-col .col-2 {
     width: 49%; }
   .flex-col .col-3 {
     width: 32px; }
   .flex-col .col-4 {
-    width: 24.5%; }
-  .flex-col .col-5 {
-    width: 20%; }
-  .flex-col .col-6 {
-    width: 16%; }
+    width: 25.5%; }

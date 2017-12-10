@@ -1,5 +1,8 @@
 header
-	background: $light-bg
+	// background: $dark-blue
+	position: relative
+	z-index: 2
+	padding: 0px 80px
 	.grid
 		justify-content: space-between
 	.logo
@@ -17,8 +20,12 @@ header
 			display: flex
 			justify-content: center
 			// flex: 1
-			align-items: stretch
+			align-items: center
 			li
 				display: inline-block
 				flex: 1
+				a
+					text-decoration: none
+					color: $text-inverse
+	
 
